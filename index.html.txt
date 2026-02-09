@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feras Abou Allil | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0a3d62;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 1.1em;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #0a3d62;
+      border-bottom: 2px solid #0a3d62;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    h3 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    a {
+      color: #0a3d62;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skills span {
+      display: inline-block;
+      background: #0a3d62;
+      color: white;
+      padding: 5px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+    .projects li {
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a3d62;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Feras Abou Allil</h1>
+  <p>Graduate Electrical & Electronics Engineer | MSc in Electronics</p>
+  <p>Istanbul, Türkiye | +90 537 277 8510 | <a href="mailto:firasabolail@hotmail.com" style="color:white;">firasabolail@hotmail.com</a> | <a href="https://www.linkedin.com/in/firasabouallil" style="color:white;">LinkedIn</a></p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Professional Summary</h2>
+    <p>Graduate Electrical & Electronics Engineer with a Master’s specialization in Electronics, combining strong academic knowledge with hands-on experience in electrical circuit design, signal processing, control systems, and neural network–based engineering applications. Completed an MSc thesis on Neural Network–Based Electrical Circuit Design using MATLAB and simulation tools to optimize circuit parameters. Experienced in electrical testing, inspection, and quality assurance under IEC and ISO 9001:2015 standards. Actively seeking roles such as Graduate Electrical Engineer, Junior Electronics Engineer, or entry-level applied AI engineering positions.</p>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <h3>MSc in Electronics — Isik University, Istanbul, Türkiye</h3>
+    <p>Oct 2023 – Jan 2026 | GPA: 2.93 / 4.00 | Fully Funded Merit Scholarship</p>
+    <p>Thesis: Electrical Circuit Design Based on Neural Networks</p>
+    <p>Relevant Coursework: Advanced Digital Signal Processing, Neural Networks, 2D Signal Processing, Digital Communications, Research Methods in Engineering, Cryptography & Information Security</p>
+
+    <h3>BSc in Electrical & Electronics Engineering — Isik University, Istanbul, Türkiye</h3>
+    <p>Sep 2018 – Jul 2023 | GPA: 3.06 / 4.00 | Honor Student</p>
+    <p>Thesis: Experimental Demonstration of Meeting Room Occupancy Management System</p>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>Electrical Engineering Intern — Kiwa Türkiye, Istanbul</h3>
+    <p>Feb 2023 – Mar 2023</p>
+    <ul>
+      <li>Conducted electrical testing and inspections in compliance with IEC standards.</li>
+      <li>Assisted in ISO 9001:2015 QMS audits, prepared technical documentation, and reports.</li>
+      <li>Collaborated with senior engineers on quality assurance evaluations across industrial facilities.</li>
+    </ul>
+
+    <h3>Electrical Engineering Intern — Navtek Deniz Teknolojisi A.Ş., Istanbul</h3>
+    <p>Jul 2022 – Aug 2022</p>
+    <ul>
+      <li>Supported design, testing, and commissioning of marine navigation and communication electrical systems.</li>
+      <li>Reviewed schematics, coordinated with cross-functional teams, and assisted in troubleshooting.</li>
+      <li>Improved system reliability during marine commissioning activities.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Quality Management in Healthcare | Jun 2024 | In-Person</li>
+      <li>ISO 9001:2015 Internal Auditor | Mar 2023 | In-Person</li>
+      <li>MATLAB Onramp, Optimization Onramp, Signal Processing Onramp | MathWorks | Aug 2022 | Online</li>
+      <li>Crisis Management, Leadership & Effective Communication | Aug 2022 | Online</li>
+      <li>DC Circuit Analysis | Aug 2022 | Online</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Engineering Projects</h2>
+    <ul class="projects">
+      <li>
+        <strong>Neural Network Circuit Design (MSc Thesis)</strong> | Oct 2024 – Jan 2026<br>
+        Developed MATLAB-based neural network models to predict and optimize electrical circuit parameters, reducing manual design iterations and improving efficiency. Validated through simulation and experiments.
+      </li>
+      <li>
+        <strong>Zero-Knowledge Proof: Proving The Truth Without Revealing Information</strong> | Oct 2024 – Jan 2025<br>
+        Studied privacy-preserving cryptographic protocols (zk-SNARKs, zk-STARKs, PLONK, Bulletproofs) and their applications in blockchain, authentication, and secure communications.
+      </li>
+      <li>
+        <strong>Automatic Gain Control System</strong> | May 2023 – Jun 2023<br>
+        Designed an op-amp–based AGC circuit with binary-weighted resistor networks controlled via Arduino, optimizing input/output voltages and gain automatically.
+      </li>
+      <li>
+        <strong>Meeting Room Occupancy System (BSc Thesis)</strong> | Oct 2022 – Jan 2023<br>
+        Built a wireless occupancy management system using optical sensors, Arduino boards, transceivers, and LCD display to monitor room occupancy in real time.
+      </li>
+      <li>
+        <strong>Optimal Water-Based Transportation System for Istanbul</strong> | Apr 2022 – Jun 2022<br>
+        Contributed electrical engineering expertise for onboard power, control, and communication systems, collaborating with industrial and biomedical engineers for optimization and safety.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <div class="skills">
+      <span>MATLAB</span><span>Simulink</span><span>Proteus</span><span>Multisim</span><span>AutoCAD</span><span>LaTeX</span>
+      <span>MATLAB GUI</span><span>Neural Networks</span><span>Machine Learning</span><span>Deep Learning</span><span>Signal Processing</span>
+      <span>Digital Communications</span><span>Control Systems</span><span>Analog & Digital Circuits</span><span>IEC Standards</span><span>Python</span>
+    </div>
+
+    <h3>Professional Skills</h3>
+    <div class="skills">
+      <span>Electrical Testing & Inspection</span><span>Circuit Analysis</span><span>Technical Reporting</span>
+      <span>Quality Assurance</span><span>ISO 9001 QMS</span><span>Research & Validation</span><span>Team Collaboration</span>
+      <span>Safety & Standards Compliance</span><span>Project-Based Work</span>
+    </div>
+
+    <h3>Personal Skills</h3>
+    <div class="skills">
+      <span>Problem Solving</span><span>Critical Thinking</span><span>Analytical Thinking</span><span>Effective Communication</span>
+      <span>Teamwork</span><span>Time Management</span><span>Adaptability</span><span>Attention to Detail</span><span>Self-Learning</span><span>Presentation Skills</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Languages</h2>
+    <ul>
+      <li>Arabic (Native)</li>
+      <li>English (C1 – Proficient)</li>
+      <li>Turkish (B2 – Upper Intermediate)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Honors & Awards</h2>
+    <p><strong>Honor Student – 3rd Highest in Department</strong> — Isik University | Jul 2023<br>
+    Recognized for academic excellence and outstanding performance in the Electrical and Electronics Engineering department.</p>
+  </div>
+
+  <div class="section">
+    <h2>Portfolio / CV</h2>
+    <p><a href="#">Download CV PDF</a> | <a href="#">Online Portfolio / GitHub</a></p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Feras Abou Allil
+</footer>
+
+</body>
+</html>
